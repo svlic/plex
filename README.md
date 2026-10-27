@@ -4,11 +4,13 @@
 
 ## 使用
 
-下载项目后，以 root 运行：
+直接复制以下命令，下载脚本并以 root 运行，在菜单中选择要安装或配置的功能（需已安装 `curl`）：
 
 ```bash
-sudo bash plex.sh
+curl -fSL https://raw.githubusercontent.com/svlic/plex/main/plex.sh -o plex.sh && sudo bash plex.sh
 ```
+
+如果当前已是 root 用户，将命令中的 `sudo bash plex.sh` 改为 `bash plex.sh` 即可。脚本会保存在当前目录，之后可运行 `sudo bash plex.sh` 再次打开菜单。
 
 菜单：
 
